@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/Abstract Factory Design/Abstract Factory Design.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/Abstract Factory Design/Abstract Factory Design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/Builder Design Pattern/Builder Design Pattern.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/Builder Design Pattern/Builder Design Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Design-Patterns.iml" filepath="$PROJECT_DIR$/.idea/Design-Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/Factory Design Pattern/Factory Design Pattern.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/Factory Design Pattern/Factory Design Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/Prototype Design Pattern/Prototype Design Pattern.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/Prototype Design Pattern/Prototype Design Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational Design Patterns/Singleton Design Pattern/Singleton Design Pattern.iml" filepath="$PROJECT_DIR$/Creational Design Patterns/Singleton Design Pattern/Singleton Design Pattern.iml" />
+    </modules>
+  </component>
+</project>

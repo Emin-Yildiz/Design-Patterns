@@ -1,77 +1,19 @@
+/*
+Problem:
 
-class Singleton {
+Nesne oluştururken bir nesne oluşturup o nesneyi heryerden erişmek hem bellek avantajı sağlar hemde güvenlik açıklarını engeller.
 
-    private static Singleton singleton = new Singleton();
+BU yöntem genellikle veritabanı gibi tek bir nesne oluşturup erişim sağlamanın yeterli olduğu yerlerde kullanılır.
 
-    private void Singleton(){
-        System.out.println("Created singleton object");
-    }
+*/
 
-    public static Singleton getInstance(){
-        return singleton;
-    }
-}
+/*
+Çözüm:
 
-class LazySingleton{
+Constructor metod private hale getirilir bu sayede dışarıdan yeni bir nesne oluşturulmaz.
+Class içine bir nesne oluşturulur ve bu nesneye ihtiyacı olan herkes erişebilir şekilde yapılandırılır.
+*/
 
-    public static LazySingleton lazySingleton;
-
-    private void LazySingleton(){
-
-    }
-
-    public static LazySingleton getInstance(){
-
-        if(lazySingleton == null){
-            lazySingleton = new LazySingleton();
-        }
-        return lazySingleton;
-    }
-
-}
-
-class DoubleCheckedLockingSingleton{
-
-    private static DoubleCheckedLockingSingleton doubleCheckedLockingSingleton;
-    public static int counter;
-
-    public DoubleCheckedLockingSingleton(){
-        counter++;
-    }
-
-    public static DoubleCheckedLockingSingleton getInstance(){
-
-        if (doubleCheckedLockingSingleton == null) {
-            synchronized (DoubleCheckedLockingSingleton.class) {
-                if (doubleCheckedLockingSingleton == null) {
-                    doubleCheckedLockingSingleton = new DoubleCheckedLockingSingleton();
-                }
-            }
-        }
-        return doubleCheckedLockingSingleton;
-
-    }
-}
-
-
-class ThreadLazySingleton{
-
-    private static ThreadLazySingleton threadLazySingleton;
-    public static int counter;
-
-    private ThreadLazySingleton(){
-        counter++;
-    }
-
-    public static ThreadLazySingleton getInstance(){
-
-        if(threadLazySingleton == null){
-            threadLazySingleton = new ThreadLazySingleton();
-        }
-        return threadLazySingleton;
-    }
-
-}
 
 public class Main extends Thread{
     public static void main(String[] args) {
