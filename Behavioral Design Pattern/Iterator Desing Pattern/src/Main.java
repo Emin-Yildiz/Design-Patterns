@@ -12,7 +12,7 @@ public class Main {
             nurse = (Nurse) iterator.next(); // Object return ettiği için nurse nesnesi dönüyor geriye
             System.out.println(nurse.getName());
         }
-        
+
         System.out.println("--------------Array--------------");
         iterator = nurseArrayProvider.getIterator();
         while (iterator.hasNext()){
