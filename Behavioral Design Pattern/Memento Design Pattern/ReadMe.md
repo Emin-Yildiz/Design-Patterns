@@ -11,4 +11,3 @@ Memento bir nesnenin geçmişteki durumlarını kaydetmeye ve bu geçmişe geri 
 
 - Yukarıdaki açıklanan problemler encapsulation'un bozulmasından kaynaklıdır.
 - Memento modeli, anlık görüntülerinin oluşturulmasını o durumun gerçek sahibi olan kaynak nesneye devreder. Dolayısıyla, editörün durumunu "dışarıdan" kopyalamaya çalışan diğer nesneler yerine, editör sınıfının kendisi kendi durumuna tam erişime sahip olduğu için anlık görüntüyü oluşturabilir. LIFO veri yapısı kullanılır.
-s
