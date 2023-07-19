@@ -1,6 +1,6 @@
 # Design Patterns
 
-Tasarım desenleri, uygulama geliştirirken karşıma çıkan sorunlara çözüm olarak geliştirilmiş, herkes tarafından kabul görmüş belirli problemlere çözüm sunan kalıplardır.
+Tasarım desenleri, uygulama geliştirirken karşılaşılan çıkan sorunlara çözüm olarak geliştirilmiş, herkes tarafından kabul görmüş belirli problemlere çözüm sunan kalıplardır.
 
 Bu yapılar programa dili fark etmeksizin kullanılabilindiği için yazılımcılar arasında ortak bir iletişim imkanıda sunar.
 
